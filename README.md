@@ -5,3 +5,4 @@
 ## 필요 모듈
 - requests
 - nltk
+- distance
