@@ -14,6 +14,11 @@ def main():
     keyword = sys.argv[0]
 
     datas = fetch(keyword)['datas']
-    print(datas)
+    contentList = []
+
+    for data in datas:
+        contentList.append(data['content'])
+
+    print(contentList)
 
 main()
